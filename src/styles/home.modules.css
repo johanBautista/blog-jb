@@ -1,0 +1,23 @@
+@import url('./var.css');
+.home-view{
+  min-height: 100vh;
+}
+.home-title{
+  position: relative;
+  top: 20rem;
+}
+.nombre{
+  width: min-content;
+  color: var(--text-primary);
+  margin-top: 0px;
+  margin-left: -3px;
+  font-size: 3em;
+  line-height: .9;
+}
+.redes{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -2rem;
+  color: var(--text-third);
+}

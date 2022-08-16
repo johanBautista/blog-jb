@@ -1,0 +1,96 @@
+@import url('./var.css');
+
+.back{
+  min-height: 100vh;
+}
+.section-skills{
+  display: flex;
+  border-bottom: 1px solid rgba(255, 99, 71, 0.496);
+  width: fit-content;
+}
+.section-skills p{
+  margin-bottom: 0px;
+}
+.skills{
+  display: flex;
+  align-items: center;
+  margin-bottom: -20px;
+}
+.skills span{
+  margin-left: 1rem;
+  color: dimgrey;
+  transition: all .2s ease-in-out; 
+}
+
+.FaHtml5:hover {
+  color: rgba(255, 166, 0, 0.494);
+  cursor: pointer;
+  transform: scale(2); 
+}
+.FaCss3Alt:hover {
+  color: rgba(56, 122, 245, 0.492);
+  cursor: pointer;
+  transform: scale(2); 
+}
+.SiBootstrap:hover {
+  color: rgba(151, 56, 245, 0.492);
+  cursor: pointer;
+  transform: scale(2); 
+}
+.SiJavascript:hover {
+  color: rgba(255, 230, 0, 0.878);
+  cursor: pointer;
+  transform: scale(2);
+}
+.FaReact:hover {
+  color: rgba(0, 255, 255, 0.6);
+  cursor: pointer;
+  transform: scale(2);
+}
+.SiTypescript:hover {
+  color: rgba(0, 72, 255, 0.59);
+  cursor: pointer;
+  transform: scale(2);
+}
+.FaAngular:hover {
+  color: rgba(255, 55, 0, 0.497);
+  cursor: pointer;
+  transform: scale(2);
+}
+.FaGithub:hover{
+  color: rgba(9, 162, 162, 0.497);
+  cursor: pointer;
+  transform: scale(2);
+
+}
+.FaBitbucket:hover{
+  color: rgba(0, 72, 255, 0.59);
+  cursor: pointer;
+  transform: scale(2);
+
+}
+.FaGitlab:hover{
+  color: rgba(255, 166, 0, 0.494);
+  cursor: pointer;
+  transform: scale(2);
+}
+.SiPostman:hover{
+   color: rgba(255, 166, 0, 0.494);
+  cursor: pointer;
+  transform: scale(2);
+}
+.FaSlack:hover{
+  color: rgba(151, 56, 245, 0.492);
+  cursor: pointer;
+  transform: scale(2);
+}
+.FaJira:hover{
+  color: rgba(0, 72, 255, 0.59);
+  cursor: pointer;
+  transform: scale(2);
+}
+.FaTrello:hover{
+  color: rgba(0, 72, 255, 0.59);
+  cursor: pointer;
+  transform: scale(2);
+}
